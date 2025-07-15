@@ -4,6 +4,8 @@ A production-ready LAMP stack application deployed on AWS ECS with automated dis
 
 ## Architecture Overview
 
+![Architecture Diagram](solutions%20architecture/disaster%20recovery.drawio.png)
+
 This project implements a **pilot light disaster recovery** pattern with:
 - **Primary Region**: Full production environment (ECS, RDS, ALB)
 - **Secondary Region**: Minimal standby environment with RDS read replica
