@@ -1,0 +1,6 @@
+public/uploads/*
+!public/uploads/.gitkeep
+.env.local
+.env
+docker-compose.yml
+README.md
